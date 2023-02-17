@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap");
+
+/* variables */
+:root {
+  --main-bg: hsl(217, 54%, 11%);
+  --card-bg: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+}
+
+body {
+  height: 100vh;
+  background-color: var(--main-bg);
+  font-family: "Outfit", sans-serif;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.container {
+  width: 300px;
+  background-color: var(--card-bg);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.avatar {
+  height: 25px;
+  width: 25px;
+}
+
+h3 {
+  color: var(--white);
+  font-weight: 500;
+}
+
+span,
+p {
+  color: var(--soft-blue);
+  font-weight: 300;
+}
+
+.name {
+  color: var(--white);
+}
+
+.price {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jules {
+  padding-top: 15px;
+  display: flex;
+
+  align-items: center;
+}
+
+.left {
+  margin-right: 5px;
+}
+
+.price1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
